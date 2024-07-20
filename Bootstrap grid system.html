@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap grid system</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+       .footer{
+        font-family: sans-serif;
+        padding: 0px 35px;
+     }
+     .heading1{
+        font-size: 25px;
+     }
+     .heading{
+        font-size: 18px;
+     }
+    
+     .footer .list-unstyled li {
+        margin-bottom: 10px;
+     }
+
+     .footer .custom-social {
+        padding: 0;
+     }
+
+     .footer .custom-social li {
+        display: inline-block;
+        margin-right: 10px;
+     }
+
+     .footer .custom-social a {
+        color: #666;
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        border: 2px solid #666;
+        background-color: rgb(239, 242, 241);
+        border-radius: 50%;
+        display: inline-block;
+     }
+
+     .footer .custom-social a:hover {
+        color: #333;
+        border-color: #333;
+     }
+
+     .col12{
+        text-align: center;
+        padding: 0px;
+     }
+
+     .list1 li a{
+        color: black!important;
+        text-decoration: none;
+        list-style-type: none;
+     }
+     .row1,.row2,.row3,.row4,.row5,.row6{
+        border: 1px solid pink;
+     }
+     .col1,.col2,.col3,.col4,.col5{
+        border: 1px solid blue;
+     }
+    </style>
+</head>
+<body>
+    <h2 class="text-center">Bootstrap Grid system</h2>
+    <section class="container">
+        <div class="row row1">
+            <div class="col-lg-3 col-md-6 col-sm-12 col1">This a row with 4columns on lare screen 2 columns on medium screen and 1 column on small screen</div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col1">This a row with 4columns on lare screen 2 columns on medium screen and 1 column on small screen</div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col1">This a row with 4columns on lare screen 2 columns on medium screen and 1 column on small screen</div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col1">This a row with 4columns on lare screen 2 columns on medium screen and 1 column on small screen</div>
+        </div>
+
+         <div class="row row2">
+            <div class="col-lg-2 col-md-4 col-sm-6 col2">This a row with 6columns on lare screen 3 columns on medium screen and 2 column on small screen</div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col2">This a row with 6columns on lare screen 3 columns on medium screen and 2 column on small screen</div>
+            <div class="col-lg-2 col-md-4 col-sm-6  col2">This a row with 6columns on lare screen 3 columns on medium screen and 2 column on small screen</div>
+            <div class="col-lg-2 col-md-4 col-sm-6  col2">This a row with 6columns on lare screen 3 columns on medium screen and 2 column on small screen</div>
+            <div class="col-lg-2 col-md-4 col-sm-6  col2">This a row with 6columns on lare screen 3 columns on medium screen and 2 column on small screen</div>
+            <div class="col-lg-2 col-md-4 col-sm-6  col2">This a row with 6columns on lare screen 3 columns on medium screen and 2 column on small screen</div>
+        </div>
+
+          <div class="row row3">
+            <div class="col-lg-6 col-sm-12 col3">2 columns large, l column small and medium</div>
+            <div class="col-lg-6  col-sm-12 col3">2 columns large, l column small and medium</div>
+        </div>
+
+        <div class="row row4">
+            <div class="col-lg-1 col-md-6 col-sm-12 col4">12 columns large, 6 columns medium, 1 column small</div>
+            <div class="col-lg-1 col-md-6 col-sm-12 col4">12 columns large, 6 columns medium, 1 column small</div>
+            <div class="col-lg-1 col-md-6 col-sm-12  col4">12 columns large, 6 columns medium, 1 column small</div>
+            <div class="col-lg-1 col-md-6 col-sm-12  col4">12 columns large, 6 columns medium, 1 column small</div>
+            <div class="col-lg-1 col-md-6 col-sm-12  col4">12 columns large, 6 columns medium, 1 column small</div>
+            <div class="col-lg-1 col-md-6 col-sm-12  col4">12 columns large, 6 columns medium, 1 column small</div>
+            <div class="col-lg-1 col-md-6 col-sm-12 col4">12 columns large, 6 columns medium, 1 column small</div>
+            <div class="col-lg-1 col-md-6 col-sm-12 col4">12 columns large, 6 columns medium, 1 column small</div>
+            <div class="col-lg-1 col-md-6 col-sm-12  col4">12 columns large, 6 columns medium, 1 column small</div>
+            <div class="col-lg-1 col-md-6 col-sm-12  col4">12 columns large, 6 columns medium, 1 column small</div>
+            <div class="col-lg-1 col-md-6 col-sm-12  col4">12 columns large, 6 columns medium, 1 column small</div>
+            <div class="col-lg-1 col-md-6 col-sm-12  col4">12 columns large, 6 columns medium, 1 column small</div>
+        </div>
+         <h3 class="text-center">Using nested row and push and pull classes</h3>
+        <div class="row row5">
+            <div class="col-md-4 col-md-push-8 col5">
+                <div class="row row6">
+                    <div class="col-sm-4 col-md-12 col5">BOX1</div>
+                    <div class="col-sm-4 col-md-12 col5">BOX2</div>
+                    <div class="col-sm-4 col-md-12 col5">BOX3</div>
+                </div>
+            </div>
+            <div class="col-md-8 col-md-pull-4 col6">Text</div>
+        </div>
+    </section>
+
+
+
+     <div class="container">
+        <div class="text-center my-5">
+            <h1>Bootstrap Grid System</h1>
+            <hr/>
+        </div>
+
+        <!-- Row Start -->
+        <div class="row row8">
+            <div class="col-lg-4 col-md-6 col-sm-12 col8">
+                <div class="card mb-5 shadow-sm">
+                    <img src="background3.jpg" class="img-fluid img img-responsive">
+                    <div class="card-body">
+                        <div class="card-title"><h2>This is post title</h2></div>
+                        <div class="card-text">
+                            <p>This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 col">
+                <div class="card mb-5 shadow-sm">
+                    <img src="background3.jpg" class="img-fluid img img-responsive">
+                    <div class="card-body">
+                        <div class="card-title"><h2>This is post title</h2></div>
+                        <div class="card-text">
+                            <p>This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 col">
+                <div class="card mb-5 shadow-sm">
+                    <img src="background3.jpg" class="img-fluid img img-responsive">
+                    <div class="card-body">
+                        <div class="card-title"><h2>This is post title</h2></div>
+                        <div class="card-text">
+                            <p>This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-lg-4 col-md-6 col-sm-12 col">
+                <div class="card mb-5 shadow-sm">
+                    <img src="background3.jpg" class="img-fluid img img-responsive">
+                    <div class="card-body">
+                        <div class="card-title"><h2>This is post title</h2></div>
+                        <div class="card-text">
+                            <p>This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+             <div class="col-lg-4 col-md-6 col-sm-12 col">
+                <div class="card mb-5 shadow-sm">
+                    <img src="background3.jpg" class="img-fluid img img-responsive">
+                    <div class="card-body">
+                        <div class="card-title"><h2>This is post title</h2></div>
+                        <div class="card-text">
+                            <p>This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+             <div class="col-lg-4 col-md-6 col-sm-12 col">
+                <div class="card mb-5 shadow-sm">
+                    <img src="background3.jpg" class="img-fluid img img-responsive">
+                    <div class="card-body">
+                        <div class="card-title"><h2>This is post title</h2></div>
+                        <div class="card-text">
+                            <p>This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-lg-4 col-md-6 col-sm-12 col">
+                <div class="card mb-5 shadow-sm">
+                    <img src="background3.jpg" class="img-fluid img img-responsive">
+                    <div class="card-body">
+                        <div class="card-title"><h2>This is post title</h2></div>
+                        <div class="card-text">
+                            <p>This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+             <div class="col-lg-4 col-md-6 col-sm-12 col">
+                <div class="card mb-5 shadow-sm">
+                    <img src="background3.jpg" class="img-fluid img img-responsive">
+                    <div class="card-body">
+                        <div class="card-title"><h2>This is post title</h2></div>
+                        <div class="card-text">
+                            <p>This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+             <div class="col-lg-4 col-md-6 col-sm-12 col">
+                <div class="card mb-5 shadow-sm">
+                    <img src="background3.jpg" class="img-fluid img img-responsive">
+                    <div class="card-body">
+                        <div class="card-title"><h2>This is post title</h2></div>
+                        <div class="card-text">
+                            <p>This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post. This is a blog post.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- Row ends here -->
+    </div>
+
+
+     <footer>
+        <div class="container footer">
+            <div class="row rows">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="heading1"><h2>Products Everywhere.</h2></div>
+                    <div class="body"><p>We're not just an e-commerce platform; we're a community of like-minded individuals who appreciate quality products. Join us on our social media platforms and subscribe to our newsletter to stay up-to-date on the latest trends, special offers, and exclusive deals.</p>
+                    </div>
+                    <div class="social-media">
+                         <ul class="list-unstyled custom-social">
+                            <li><a href="#" class="fa fa-facebook"></a></li>
+                            <li><a href="#" class="fa fa-twitter"></a></li>
+                            <li><a href="#" class="fa fa-instagram"></a></li>
+                            <li><a href="#" class="fa fa-linkedin"></a></li>
+                        </ul>
+                    </div>
+                </div><!--column 1 ends here-->
+               
+                <div class="col-lg-2 col-md-6 col-sm-12 col12">
+                   <div class="heading"><h2>Pages</h2></div>
+                  <div class="list">
+                       <ul class="list-unstyled list1">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                       </ul>
+                  </div>
+                </div><!--column2 ends here-->
+
+                <div class="col-lg-2 col-md-6 col-sm-12 col12">
+                   <div class="heading"><h2>Legals</h2></div>
+                  <div class="list list1">
+                       <ul class="list-unstyled">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Profile</a></li>
+                        </ul>
+                  </div>
+                </div><!--column3 ends here-->
+
+                <div class="col-lg-2 col-md-6 col-sm-12 col12">
+                   <div class="heading"><h2>Contact Us</h2></div>
+                  <div class="list">
+                       <ul class="list-unstyled list1">
+                            <li><a href="#">Email: email@gmail.com</a></li>
+                            <li><a href="#">Contact: +12345678</a></li>
+                        </ul>
+                  </div>
+                </div><!--column4 ends here-->
+
+                <div class="col-lg-2 col-md-0 col-sm-12 col12">
+                  <!-- Empty column for spacing -->
+                </div><!--column5 ends here-->
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
